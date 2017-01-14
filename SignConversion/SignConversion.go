@@ -145,6 +145,7 @@ func GetCommandType(param string) CommandType {
 
 func PrintHelp() {
 	fmt.Println("Command Line Parameters For Sign Conversion: conversion_type number [number]...")
+	fmt.Println("All numbers should be in base 10 format.  Enter as many numbers as needes to convert.")
 	fmt.Println(int64uint64)
 	fmt.Println(uint64int64)
 	fmt.Println(int32uint32)
